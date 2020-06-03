@@ -1,0 +1,19 @@
+from random import randint 
+
+# generate a number 1-10
+answer = randint(1,10)
+
+# input from user 
+while True: 
+    try: 
+    guess = int(input('guess the number 1-10  '))
+    # check the input 
+    if 0 < guess < 10
+        if  guess == answer :
+            print ('ypu're a genius')
+            break
+    else: 
+        print( 'hey i said 1-10)
+    except ValueError: 
+        print ('please enter a number!')
+        continue 
